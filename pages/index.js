@@ -1,14 +1,6 @@
-// Pagina inicial (Home) do aplicativo Next.js
-// function Home() {
-//   return (
-//     <div>
-//       <h1 className="text-3xl font-bold underline">Hello world!</h1>
-//     </div>
-//   );
-// }
-// export default Home;
 
-export default function Home() {
+
+ export default function Home() {
   return (
     <section>
       <h2 className="text-3xl font-bold mb-4">Automação com Inovação e Segurança</h2>
@@ -20,4 +12,4 @@ export default function Home() {
       </a>
     </section>
   )
-}
+} 
