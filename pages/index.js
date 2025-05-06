@@ -1,7 +1,11 @@
 
+import GearSection from '../components/GearSection';
 
  export default function Home() {
   return (
+    <>
+    <GearSection />
+    {/* Outras seções */}
     <section>
       <h2 className="text-3xl font-bold mb-4">Automação com Inovação e Segurança</h2>
       <p className="text-lg text-gray-700 mb-6">
@@ -11,5 +15,6 @@
         Conheça nossos serviços
       </a>
     </section>
+    </>
   )
 } 
